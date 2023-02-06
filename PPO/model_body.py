@@ -54,6 +54,7 @@ class RainbowBody(BaseBody):
 
 class MlpBody(BaseBody):
     def __init__(
+        self,
         input_shape : Tuple,
         feature_dim : int = 256,
     ):
